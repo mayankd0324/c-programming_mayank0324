@@ -2,7 +2,8 @@
 
 void main()
 {
-    int sensor1, sensor2, sum,sub;
+  clrscr();
+  int sensor1, sensor2, sum,sub;
 
     printf("Sensor 1 : ");
     scanf("%d", &sensor1);
@@ -15,4 +16,5 @@ void main()
 
     printf("Sensor 1 + Sensor 2 = %d ", sum);
     printf("Sensor 1 - Sensor 2 = %d",sub);
+getch();
 }
