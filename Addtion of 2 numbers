@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+void main()
+{
+clrscr();
+    int sensor1, sensor2, sum;
+
+    printf("Sensor 1 : ");
+    scanf("%d", &sensor1);
+
+    printf("Sensor 2 : ");
+    scanf("%d", &sensor2);
+
+    sum = sensor1 + sensor2;
+
+    printf("Sensor 1 + Sensor 2 = %d", sum);
+getch();
+}
