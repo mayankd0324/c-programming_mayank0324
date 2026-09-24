@@ -19,3 +19,4 @@ void main()
     printf("Sensor 1 - Sensor 2 = %d",sub);
 getch();
 }
+
