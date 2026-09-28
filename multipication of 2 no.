@@ -1,0 +1,13 @@
+#include <stdio.h>
+void main()
+{
+int Number1, Number2, mul;
+clrscr();
+printf ("Number 1:"):
+scanf("%d", &Number1);
+printf ("Number 2:");
+scanf("%d", &Number2);
+mul = Number1 Number2;
+printf(" Multiplication of Number 1 and Number 2 = %d ", mul);
+getch();
+}
