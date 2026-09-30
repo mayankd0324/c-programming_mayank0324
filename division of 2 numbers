@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main()
+{
+int Number1, Number2, div;
+clrscr();
+printf ("Number 1:");
+scanf("%d", &Number1);
+printf ("Number 2:");
+scanf("%d", &Number2);
+div = Number1 / Number2;
+ printf("Division of Number 1 and Number 2 =%d",div);
+getch();
+}
