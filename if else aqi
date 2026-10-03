@@ -1,0 +1,31 @@
+#include<stdio.h>
+void main()
+{
+    float good=50,moderate=100,poor=150,unhealthy=200,severe=300,sensor_AQI;
+    printf("Enter your AQI:");
+    scanf("%f",&sensor_AQI);
+    if(sensor_AQI >= 0 && sensor_AQI<=50)
+    {
+        printf("Air Quality:Good");
+    }
+        else if (sensor_AQI>= 51 && sensor_AQI<=100)
+    {
+        printf("Air Quality:Moderate");
+    }
+        else if (sensor_AQI>= 101 && sensor_AQI<=150)
+        {
+            printf("Air Quality:Poor");
+                }
+    else if (sensor_AQI>=151 && sensor_AQI<=200)
+    {
+        printf("Air Quality:Unhealty");
+        }
+    else if (sensor_AQI>=201 && sensor_AQI<=300)
+    {
+        printf("Air Quality:severe");
+    }
+    else
+    {
+        printf("Invalid AQI");
+    }
+}
