@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main() 
+{
+    int rows, i, j, k, num = 1;
+
+    printf("Enter the no. of rows of pyramids: ");
+    scanf("%d", &rows);
+
+    for (i = 1; i <= rows; i++) 
+    {
+        // 1. Print spaces for the pyramid shape
+        for (j = 1; j <= rows - i; j++) 
+        {
+            printf("  "); // Two spaces match the formatting of "%d "
+        }
+
+        // 2. Print numbers in a row
+        for (k = 1; k <= (2 * i - 1); k++) 
+        {
+            printf("%d ", num);
+            num++;
+        }
+
+        // 3. Move to the next line after finishing the row
+        printf("\n");
+    }
+
+    return 0;
+}
